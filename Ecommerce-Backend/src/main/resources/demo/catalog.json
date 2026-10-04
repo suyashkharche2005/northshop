@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Studio Wireless Headphones",
+    "brand": "Northshop Studio",
+    "description": "Comfortable over-ear listening with soft cushions and a clean, minimal finish.",
+    "price": 2499,
+    "category": "Desk & Tech",
+    "releaseDate": "2026-09-01",
+    "productAvailable": true,
+    "stockQuantity": 18,
+    "image": "headphones.png"
+  },
+  {
+    "name": "Compact Mechanical Keyboard",
+    "brand": "Northshop Studio",
+    "description": "A compact desktop keyboard with tactile keys and a sturdy everyday design.",
+    "price": 3799,
+    "category": "Desk & Tech",
+    "releaseDate": "2026-09-01",
+    "productAvailable": true,
+    "stockQuantity": 14,
+    "image": "keyboard.png"
+  },
+  {
+    "name": "Adjustable Desk Lamp",
+    "brand": "Northshop Studio",
+    "description": "A focused desk light with an adjustable arm and warm, simple silhouette.",
+    "price": 1899,
+    "category": "Desk & Tech",
+    "releaseDate": "2026-09-01",
+    "productAvailable": true,
+    "stockQuantity": 22,
+    "image": "lamp.png"
+  },
+  {
+    "name": "Portable Bluetooth Speaker",
+    "brand": "Northshop Studio",
+    "description": "A compact speaker for casual listening at home or on the move.",
+    "price": 2299,
+    "category": "Desk & Tech",
+    "releaseDate": "2026-09-01",
+    "productAvailable": true,
+    "stockQuantity": 16,
+    "image": "speaker.png"
+  },
+  {
+    "name": "Everyday Analog Watch",
+    "brand": "Northshop Studio",
+    "description": "A classic analog watch with a clean dial and a comfortable strap.",
+    "price": 3299,
+    "category": "Everyday Carry",
+    "releaseDate": "2026-09-01",
+    "productAvailable": true,
+    "stockQuantity": 11,
+    "image": "watch.png"
+  },
+  {
+    "name": "Instant Camera",
+    "brand": "Northshop Studio",
+    "description": "A playful instant-style camera for documenting everyday moments.",
+    "price": 4999,
+    "category": "Everyday Carry",
+    "releaseDate": "2026-09-01",
+    "productAvailable": true,
+    "stockQuantity": 9,
+    "image": "camera.png"
+  },
+  {
+    "name": "Stoneware Coffee Mug",
+    "brand": "Northshop Studio",
+    "description": "A warm-toned ceramic mug for slow mornings and daily coffee breaks.",
+    "price": 699,
+    "category": "Home & Living",
+    "releaseDate": "2026-09-01",
+    "productAvailable": true,
+    "stockQuantity": 35,
+    "image": "mug.png"
+  },
+  {
+    "name": "Linen Blend Cushion",
+    "brand": "Northshop Studio",
+    "description": "A softly textured cushion that adds warmth to a sofa or reading corner.",
+    "price": 899,
+    "category": "Home & Living",
+    "releaseDate": "2026-09-01",
+    "productAvailable": true,
+    "stockQuantity": 25,
+    "image": "cushion.png"
+  },
+  {
+    "name": "Olive Ceramic Planter",
+    "brand": "Northshop Studio",
+    "description": "A decorative planter with a simple terracotta finish for indoor greenery.",
+    "price": 1199,
+    "category": "Home & Living",
+    "releaseDate": "2026-09-01",
+    "productAvailable": true,
+    "stockQuantity": 17,
+    "image": "planter.png"
+  },
+  {
+    "name": "Everyday Canvas Tote",
+    "brand": "Northshop Studio",
+    "description": "A roomy canvas tote for books, groceries, and daily essentials.",
+    "price": 799,
+    "category": "Everyday Carry",
+    "releaseDate": "2026-09-01",
+    "productAvailable": true,
+    "stockQuantity": 28,
+    "image": "tote.png"
+  },
+  {
+    "name": "Insulated Steel Bottle",
+    "brand": "Northshop Studio",
+    "description": "A reusable steel bottle with a compact shape for everyday carry.",
+    "price": 999,
+    "category": "Everyday Carry",
+    "releaseDate": "2026-09-01",
+    "productAvailable": true,
+    "stockQuantity": 30,
+    "image": "bottle.png"
+  },
+  {
+    "name": "Hardcover Pocket Notebook",
+    "brand": "Northshop Studio",
+    "description": "A durable notebook for ideas, lists, sketches, and plans.",
+    "price": 499,
+    "category": "Desk & Tech",
+    "releaseDate": "2026-09-01",
+    "productAvailable": true,
+    "stockQuantity": 40,
+    "image": "notebook.png"
+  }
+]
