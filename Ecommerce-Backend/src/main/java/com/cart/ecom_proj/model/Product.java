@@ -27,6 +27,17 @@ public class Product {
     private Date releaseDate;
     private boolean productAvailable;
     private int stockQuantity;
+    // Nullable so pre-upgrade rows remain visible when Hibernate adds the column.
+    @Column(name = "archived")
+    private Boolean archived = false;
+
+    public Boolean getArchived() {
+        return archived;
+    }
+
+    public void setArchived(Boolean archived) {
+        this.archived = archived;
+    }
 
     private String imageName;
     private String imageType;

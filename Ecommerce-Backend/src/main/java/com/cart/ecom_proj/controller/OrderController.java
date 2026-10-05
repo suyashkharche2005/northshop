@@ -11,4 +11,7 @@ public class OrderController {
  private final OrderService service; public OrderController(OrderService service){this.service=service;}
  @PostMapping public ResponseEntity<OrderResponse> place(Authentication auth,@Valid @RequestBody OrderRequest request){return ResponseEntity.status(HttpStatus.CREATED).body(service.place(auth.getName(),request));}
  @GetMapping("/mine") public List<OrderResponse> mine(Authentication auth){return service.mine(auth.getName());}
+ @PostMapping("/{id}/cancel") public OrderResponse cancel(@PathVariable int id,Authentication auth){return service.cancel(id,auth.getName());}
+ @GetMapping("/admin") public List<OrderResponse> all(){return service.all();}
+ @PutMapping("/{id}/status") public OrderResponse status(@PathVariable int id,@Valid @RequestBody OrderStatusRequest request){return service.updateStatus(id,request.status());}
 }
