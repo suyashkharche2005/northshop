@@ -83,7 +83,12 @@ public class SecurityConfig {
                 .requestMatchers(HttpMethod.POST, "/api/product").hasRole("ADMIN")
                 .requestMatchers(HttpMethod.PUT, "/api/product/*").hasRole("ADMIN")
                 .requestMatchers(HttpMethod.DELETE, "/api/product/*").hasRole("ADMIN")
+                // Admin-only order endpoints must come BEFORE the general /api/orders/** rule.
+                .requestMatchers(HttpMethod.GET, "/api/orders/admin").hasRole("ADMIN")
+                .requestMatchers(HttpMethod.PUT, "/api/orders/*/status").hasRole("ADMIN")
                 .requestMatchers("/api/orders/**").authenticated()
+                // Test-mode Razorpay payment endpoints (start, confirm, resume, sync, abandon).
+                .requestMatchers("/api/payments/test/**").authenticated()
                 // FIX: the shopping assistant was blocked by anyRequest().denyAll() below.
                 // Signed-in users may call it.
                 .requestMatchers(HttpMethod.POST, "/api/assistant/ask").authenticated()
